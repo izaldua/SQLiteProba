@@ -7,21 +7,21 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         DbAccessManager dataManager = DbAccessManager.getInstance();
-//        dataManager.storePilot("Lewis Hamilton", "British", 380);
-//        dataManager.storePilot("Valtteri Bottas", "Finnish", 280);
-//        dataManager.storePilot("Max Verstappen", "Dutch", 250);
-//        dataManager.storePilot("Charles Leclerc", "Monegasque", 200);
-//        dataManager.storePilot("Lando Norris", "British", 100);
-//        dataManager.storePilot("Carlos Sainz", "Spanish", 100);
-//        dataManager.storePilot("Pierre Gasly", "French", 50);
-//        dataManager.storePilot("Fernando Alonso", "Spanish", 400);
-//        dataManager.storePilot("Sebastian Vettel", "German", 300);
-//        dataManager.storePilot("Daniel Ricciardo", "Australian", 200);
-//        dataManager.storePilot("Esteban Ocon", "French", 100);
-//        dataManager.storePilot("Sergio Perez", "Mexican", 100);
-//        dataManager.storePilot("Lance Stroll", "Canadian", 50);
-//        dataManager.storePilot("Kimi Raikkonen", "Finnish", 400);
-//        dataManager.storePilot("Antonio Giovinazzi", "Italian", 50);
+        dataManager.storePilot("Lewis Hamilton", "British", 380);
+        dataManager.storePilot("Valtteri Bottas", "Finnish", 280);
+        dataManager.storePilot("Max Verstappen", "Dutch", 250);
+        dataManager.storePilot("Charles Leclerc", "Monegasque", 200);
+        dataManager.storePilot("Lando Norris", "British", 100);
+        dataManager.storePilot("Carlos Sainz", "Spanish", 100);
+        dataManager.storePilot("Pierre Gasly", "French", 50);
+        dataManager.storePilot("Fernando Alonso", "Spanish", 400);
+        dataManager.storePilot("Sebastian Vettel", "German", 300);
+        dataManager.storePilot("Daniel Ricciardo", "Australian", 200);
+        dataManager.storePilot("Esteban Ocon", "French", 100);
+        dataManager.storePilot("Sergio Perez", "Mexican", 100);
+        dataManager.storePilot("Lance Stroll", "Canadian", 50);
+        dataManager.storePilot("Kimi Raikkonen", "Finnish", 400);
+        dataManager.storePilot("Antonio Giovinazzi", "Italian", 50);
 
         //Print all the pilots in the db using function getAllPilots() jumping line after each pilot
         for (Pilot pilot : dataManager.getAllPilots()) {
@@ -69,6 +69,9 @@ public class Main {
             System.out.println(pilot);
         }
 
+        System.out.println("");
+        System.out.println("");
 
+    // Hacer que funcione el pilotGetByName
     }
 }
