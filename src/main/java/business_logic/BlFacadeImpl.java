@@ -1,10 +1,14 @@
 package business_logic;
 
+import data_access.DbAccessManager;
 import domain.Pilot;
 
 import java.util.List;
 
 public class BlFacadeImpl implements BlFacade {
+
+    private DbAccessManager dbManager = DbAccessManager.getInstance();
+
     @Override
     public void storePilot(String name, String nationality, int points) {
 
